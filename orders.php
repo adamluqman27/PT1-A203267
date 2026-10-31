@@ -2,7 +2,7 @@
 ob_start();
 ?>
 
-<div class="card show border-0 border-start border-5 border-primary mb-4">
+<div class="card shadow border-0 border-start border-5 border-primary mb-4">
     <div class="card-body">
         <h2 class="mb-1">Orders</h2>
         <p class="text-muted mb-0">Create and manage customer orders </p>
@@ -103,6 +103,12 @@ ob_start();
                             <button type="button" class="btn btn-sm btn-info text-white">
                                 <i class="bi bi-image"></i>
                             </button>
+                            <a href="orderdetails.php" class="btn btn-sm btn-info text-white" title="Order details">
+                                <i class="bi bi-list"></i>
+                            </a>
+                            <a href="invoice.php" class="btn btn-sm btn-success" title="View invoice">
+                                <i class="bi bi-receipt"></i>
+                            </a>
                             <a href="#" class="btn btn-sm btn-danger">
                                 <i class="bi bi-trash"></i>
                             </a>
