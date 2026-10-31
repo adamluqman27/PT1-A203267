@@ -45,33 +45,43 @@ ob_start();
                     <label for="brand" class="form-label">Brand <span class="text-danger" arial-hidden="true">*</span></label>
                     <select name="product_brand" id="brand" class="form-select" required>
                         <option value="">Select Brand</option>
-                        <option value="Cervelo">Cervelo</option>
-                        <option value="Geometric">Geometric</option>
-                        <option value="Tecc">Tecc</option>
-                        <option value="Nosh">Nosh</option>
+                        <option value="Scmidth">Scmidth</option>
+                        <option value="Hygr">Hygr</option>
                     </select>
                 </div>
                 
                 <div class="col-md-3">
-                    <label for="product_condition" class="form-label">Condition <span class="text-danger" aria-hidden="true"></span></label>
-                    <select name="product_condition" id="product_condition" class="form-select" required>
-                        <option value="">Select Condition</option>
-                        <option value="New">New</option>
-                        <option value="Used">Used</option>
+                    <label for="product_size" class="form-label">Size <span class="text-danger" aria-hidden="true"></span></label>
+                    <select name="product_size" id="product_size" class="form-select" required>
+                        <option value="">Select Size</option>
+                        <option value="25g">25g</option>
                     </select>
                 </div>
 
                 <div class="col-md-3">
-                    <label for="year" class="form-label">Manufacturing Year <span class="text-danger" aria-hidden="true">*</span></label>
-                    <select name="product_year" id="year" class="form-select" required>
-                        <option value="">Select Year</option>
-                        <option value="2020">2020</option>
-                        <option value="2021">2021</option>
-                        <option value="2022">2022</option>
-                        <option value="2023">2023</option>
-                        <option value="2024">2024</option>
-                        <option value="2025">2025</option>
-                        <option value="2026">2026</option>
+                    <label for="year" class="form-label">Scent <span class="text-danger" aria-hidden="true">*</span></label>
+                    <select name="product_scent" id="year" class="form-select" required>
+                        <option value="">Select Scent</option>
+                        <option value="BAYU">BAYU</option>
+                        <option value="LIME">LIME</option>
+                        <option value="PEAR">PEAR</option>
+                        <option value="CHARCOAL">CHARCOAL</option>
+                        <option value="CITRUS">CITRUS</option>
+                        <option value="KOPI">KOPI</option>
+                        <option value="CREME">CREME</option>
+                        <option value="CUCUMEBR">CUCUMBER</option>
+                        <option value="SPICE">SPICE</option>
+                        <option value="APRICOT">APRICOT</option>
+                        <option value="LAVENDER">LAVENDER</option>
+                        <option value="LAVENDER SAGE">LAVENDER SAGE</option>
+                        <option value="TEH">TEH</option>
+                        <option value="ROSE">ROSE</option>
+                        <option value="ROSE VANILLA">ROSE VANILLA</option>
+                        <option value="TEA TREE">TEA TREE</option>
+                        <option value="WOODY">WOODY</option>
+                        <option value="YLANG YLANG">YLANG YLANG</option>
+                        <option value="ZASMINE">ZASMINE</option>
+                        <option value="ZEN">ZEN</option>
                     </select>
                 </div>
 

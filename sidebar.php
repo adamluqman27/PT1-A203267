@@ -2,7 +2,7 @@
                 <div class="p-4">
                     <a href="#" class="navbar-brand">
                         <div class="row">
-                            <h5 class="">My Company</h5>
+                            <h5 class="">ALT-DEO</h5>
                         </div>
                     </a>
                     <hr>
@@ -28,7 +28,7 @@
                         <li class="nav-item mb-3">
                             <a href="staffs.php" class="text-decoration-none text-white">
                                 <i class="bi bi-person-badge-fill me-2"></i>
-                                staffs
+                                Staffs
                             </a>
                         </li>
                         <li class="nav-item mb-3">
@@ -37,7 +37,7 @@
                                 Orders
                             </a>
                         </li>
-                        <!-- Add more menus -->
+                    
                     </ul>
                     <hr>
                     <div class="dropdown">
@@ -49,7 +49,7 @@
 
                             <div class="d-inline-block align-middle ms-2 text-start">
                                 <h6 class="mb-0 text-nowrap">User</h6>
-                                <small class="text-white-50 text-nowrap d-block">user@email.com</small>
+                                <small class="text-white-50 text-nowrap d-block">a203267@siswa.ukm.edu.my</small>
                             </div>
 
                         </a>
